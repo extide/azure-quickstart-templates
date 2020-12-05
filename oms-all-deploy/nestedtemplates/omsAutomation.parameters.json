@@ -1,0 +1,30 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "omsAutomationAccountName": {
+      "value": ""
+    },
+    "omsAutomationRegion": {
+      "value": ""
+    },
+    "omsWorkspaceName": {
+      "value": ""
+    },
+    "omsRecoveryVaultName": {
+      "value": ""
+    },
+    "azureAdmin": {
+      "value": "" // TODO: Fill in parameter value
+    },
+    "azureAdminPwd": {
+      "value": "" // TODO: Fill in parameter value
+    },
+    "_artifactsLocation": {
+      "value": "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/oms-all-deploy"
+    },
+    "_artifactsLocationSasToken": {
+      "value": ""
+    }
+  }
+}
